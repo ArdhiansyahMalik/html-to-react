@@ -5,7 +5,7 @@ import Button from 'elements/Button'
 
 export default function Header(props) {
     return (
-        <header className="site-header reveal-from-bottom">
+        <header className="site-header">
             <div className="container">
                 <div className="site-header-inner">
                     <div className="brand">
