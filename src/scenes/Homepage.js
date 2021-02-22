@@ -2,10 +2,34 @@ import React from 'react'
 import Header from 'parts/Header'
 import Section from 'elements/Section'
 import HeroImage from 'assets/images/hero-image.png'
+import FeatureTile01 from 'assets/images/feature-tile-icon-01.svg'
+import FeatureTile02 from 'assets/images/feature-tile-icon-02.svg'
+import FeatureTile03 from 'assets/images/feature-tile-icon-03.svg'
 import Clients from 'parts/Clients'
+import Feature from 'parts/Feature'
 import Fade from 'react-reveal/Fade'
 
 export default function Homepage() {
+	const features = [
+		{
+			imgSrc: FeatureTile01,
+			imgAlt: "Feature tile icon 01",
+			title: "Join to BWA 01",
+			description: "A pseudo-Latin text design, layout, and printing in place of things to emphasise design."
+		},
+		{
+			imgSrc: FeatureTile02,
+			imgAlt: "Feature tile icon 02",
+			title: "Join to BWA 02",
+			description: "A pseudo-Latin text design, layout, and printing in place of things to emphasise design."
+		},
+		{
+			imgSrc: FeatureTile03,
+			imgAlt: "Feature tile icon 03",
+			title: "Join to BWA 03",
+			description: "A pseudo-Latin text design, layout, and printing in place of things to emphasise design."
+		}
+	];
     return (
         <div className="body-wrap">
             <Header></Header>
@@ -44,6 +68,22 @@ export default function Homepage() {
 					</div>
                 </Section>
 				<Clients></Clients>
+				<Section className="features-tiles">
+					<div class="container">
+						<div class="features-tiles-inner section-inner">
+							<div class="tiles-wrap">
+								{features.map((feature, index) => (
+									<Feature 
+										key={index} 
+										delayInMS={(index * 500) + 2000} 
+										data={feature}
+									>
+									</Feature>
+								))}
+							</div>
+						</div>
+					</div>
+				</Section>
             </main>
         </div>
     );
