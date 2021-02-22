@@ -8,7 +8,7 @@ export default function Homepage() {
         <div className="body-wrap">
             <Header></Header>
             <main className="site-content">
-                <Section>
+                <Section className="hero illustration-section-01">
                     <div className="container-sm">
 						<div className="hero-inner section-inner">
 							<div className="hero-content">
