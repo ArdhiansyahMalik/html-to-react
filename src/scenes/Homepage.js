@@ -2,6 +2,7 @@ import React from 'react'
 import Header from 'parts/Header'
 import Section from 'elements/Section'
 import HeroImage from 'assets/images/hero-image.png'
+import Clients from 'parts/Clients'
 import Fade from 'react-reveal/Fade'
 
 export default function Homepage() {
@@ -42,6 +43,7 @@ export default function Homepage() {
 						</div>
 					</div>
                 </Section>
+				<Clients></Clients>
             </main>
         </div>
     );
