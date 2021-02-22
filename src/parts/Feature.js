@@ -10,8 +10,8 @@ export default function Feature(props) {
                     <div className="features-tiles-item-header">
                         <div className="features-tiles-item-image mb-16">
                             <img 
-                                src={props.data.ImgSrc}
-                                alt={props.data.ImgAlt}
+                                src={props.data.src}
+                                alt={props.data.alt}
                                 width="64" 
                                 height="64" 
                             />

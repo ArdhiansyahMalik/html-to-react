@@ -12,20 +12,20 @@ import Fade from 'react-reveal/Fade'
 export default function Homepage() {
 	const features = [
 		{
-			imgSrc: FeatureTile01,
-			imgAlt: "Feature tile icon 01",
+			src: FeatureTile01,
+			alt: "Feature tile icon 01",
 			title: "Join to BWA 01",
 			description: "A pseudo-Latin text design, layout, and printing in place of things to emphasise design."
 		},
 		{
-			imgSrc: FeatureTile02,
-			imgAlt: "Feature tile icon 02",
+			src: FeatureTile02,
+			alt: "Feature tile icon 02",
 			title: "Join to BWA 02",
 			description: "A pseudo-Latin text design, layout, and printing in place of things to emphasise design."
 		},
 		{
-			imgSrc: FeatureTile03,
-			imgAlt: "Feature tile icon 03",
+			src: FeatureTile03,
+			alt: "Feature tile icon 03",
 			title: "Join to BWA 03",
 			description: "A pseudo-Latin text design, layout, and printing in place of things to emphasise design."
 		}
