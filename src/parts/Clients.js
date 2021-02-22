@@ -19,17 +19,17 @@ export default function Clients() {
                             </Fade>
 						</li>
 						<li>
-                            <Fade left delay={1500}>
+                            <Fade left delay={1700}>
 	    						<img src={Client02} alt="Clients 02"/>
                             </Fade>
 						</li>
 						<li>
-                            <Fade bottom delay={1500}>
+                            <Fade bottom delay={1800}>
     							<img src={Client03} alt="Clients 03"/>
                             </Fade>
 						</li>
 						<li>
-                            <Fade right delay={1500}>
+                            <Fade right delay={1700}>
 							    <img src={Client04} alt="Clients 04"/>
                             </Fade>
 						</li>
